@@ -1,0 +1,21 @@
+body {
+    margin : 0px;
+}
+
+.top {
+    aspect-ratio: 1;
+    padding:10px;
+    background-color: black;
+}
+
+.row {
+    aspect-ratio: 1;
+    padding:10px;
+    background-color: black;
+}
+
+.block {
+    aspect-ratio: 1;
+    padding:10px;
+    background-color: black;
+}
