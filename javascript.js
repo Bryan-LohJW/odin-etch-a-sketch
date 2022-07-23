@@ -1,22 +1,29 @@
-//button
-const button = document.createElement('a');
-button.textContent = 'Click Me';
-document.body.appendChild(button);
+//replaceButton
+const replaceButton = document.createElement('a');
+replaceButton.textContent = 'Resize';
+document.body.appendChild(replaceButton);
 
-//button listener
+//clearButton
+const clearButton = document.createElement('a');
+clearButton.textContent = 'Clear';
+document.body.appendChild(clearButton);
+clearButton.addEventListener('click', () => {
+    clearBlock();
+})
+
+//replaceButton listener
 let number = 4
-button.addEventListener('click', (e) => {
-    let lenOfSide = prompt("How many boxes?")
+replaceButton.addEventListener('click', (e) => {
+    let lenOfSide = prompt("Length of side (less than 100)")
     number = Number(lenOfSide);
     console.log(typeof(number), number);
-    while(typeof(number) !== "number" || isNaN(number) || number === 0) {
-        lenOfSide = prompt("Please type a number");
+    while(typeof(number) !== "number" || isNaN(number) || number === 0 || number > 100) {
+        lenOfSide = prompt("Please type a number less than 100");
         number = Number(lenOfSide);
         console.log(typeof(number), number);
     }
     delAll()
     addElements(number)
-    b
 });
 
 //creation of DOM nodes
@@ -55,6 +62,14 @@ const blockEventListen = function () {
 //function to delete all containers
 const delAll = function() {
     document.body.removeChild(document.body.querySelector('div'));
+}
+
+//function to clear all boxes
+const clearBlock = function () {
+    const allBlock = document.querySelectorAll('.block');
+    allBlock.forEach((e) => {
+        e.classList.remove('black');
+    })
 }
 
 addElements(number)

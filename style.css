@@ -30,7 +30,7 @@ a {
 
 .block {
     flex: 1 1 0;
-    border: 0px solid grey;
+    border: 1px solid grey;
     aspect-ratio: 1;
 }
 
