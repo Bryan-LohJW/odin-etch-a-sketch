@@ -17,7 +17,7 @@ replaceButton.addEventListener('click', (e) => {
     let lenOfSide = prompt("Length of side (less than 100)")
     number = Number(lenOfSide);
     console.log(typeof(number), number);
-    while(typeof(number) !== "number" || isNaN(number) || number === 0 || number > 100) {
+    while(typeof(number) !== "number" || isNaN(number) || number > 100 || number <= 0) {
         lenOfSide = prompt("Please type a number less than 100");
         number = Number(lenOfSide);
         console.log(typeof(number), number);
