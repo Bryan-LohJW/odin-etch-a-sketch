@@ -1,0 +1,29 @@
+[33mcommit 9bdade7bcfaccc2b08fde1cb6e4294f7f2386197[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Bryan <bryanlohjw97@gmail.com>
+Date:   Sat Jul 23 01:18:49 2022 +0800
+
+    add color change function for block
+
+[33mcommit f9f56d6aafa4e516bd5916aff4e6d9b7889526ea[m
+Author: Bryan <bryanlohjw97@gmail.com>
+Date:   Sat Jul 23 00:56:02 2022 +0800
+
+    add JS create DOM and add positioning
+
+[33mcommit c5c87fbdf06a8bcc5b1665210bae669469a2f5a9[m
+Author: Bryan <bryanlohjw97@gmail.com>
+Date:   Fri Jul 22 23:21:09 2022 +0800
+
+    add boilerplate
+
+[33mcommit 9aaf37cdf1cb1031c73a5ad2cf0c6647cea24ca4[m
+Author: Bryan <bryanlohjw97@gmail.com>
+Date:   Fri Jul 22 23:15:14 2022 +0800
+
+    add index style javascript files
+
+[33mcommit 5019d7e2e5cda4b79acc66035eea86738e095aa9[m
+Author: Bryan-LohJW <109397773+Bryan-LohJW@users.noreply.github.com>
+Date:   Fri Jul 22 23:09:26 2022 +0800
+
+    Initial commit
